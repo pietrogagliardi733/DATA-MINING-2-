@@ -1,0 +1,1 @@
+1) CGAS-CGAS_Score dovrebbe avere dei valori da 1 a 100, ma ci sono 16 valori che superano il 100, secondo me dobbiamo convertirli in missing values e classificarli
