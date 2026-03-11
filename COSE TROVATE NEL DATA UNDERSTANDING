@@ -1,1 +1,3 @@
 1) CGAS-CGAS_Score dovrebbe avere dei valori da 1 a 100, ma ci sono 16 valori che superano il 100, secondo me dobbiamo convertirli in missing values e classificarli
+2) Physical-BMI, ci sono 7 valori uguali a 0 da convertire in missing prima di classificare, ee altri valori <11 e >40 che sicuramente saranno outlier
+nella outlier detection.
