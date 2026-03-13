@@ -6,5 +6,13 @@ nella outlier detection.
 5) Anche nelle colonne Fitness_Endurance ci sono dei valori uguali a 0, da capire se convertirli in missing.
 6)In molte colonne FGC, che sono test fisici, ci sono dei valori uguali a 0, secondo me possiamo accettarli come valori perchè nello studio ci sono
 anche bambini con gravi condizioni cliniche (esempio, non riescono a fare un sit-up, un push-up, o hanno una groip strenght uguale a 0)
+7) La colonna BIA-BIA_BMC che indica il bone mineral content contiene 34 valori negativi (impossibile), gemini dice che sono errori di misurazione,
+consiglia di convertirli in missing.
+8) La colonna BIA-BIA_BMR indica il metabolismo basale, 8 valori sono sopra i 5000(2 addirittura sopra i 75k), potremmo considerarli errori di 
+misurazione e convertirli in missing
+9)BIA-BIA_FMI (fat mass index) ha 51 valori negativi e BIA-BIA_Fat (grasso corporeo) ha 112 valori negativi,
+anche questi errori di misurazione da convertire.
+10) C'è una discrepanza massiccia tra il BMI fornito (Physical-BMI) e quello calcolato manualmente partendo da Peso e Altezza.
+In 6578 casi la differenza è superiore a 1 punto di BMI, sarebbe meglio ricalcolare il BMI a mano con la formula.
 
 
