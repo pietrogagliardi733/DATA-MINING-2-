@@ -16,3 +16,10 @@ anche questi errori di misurazione da convertire.
 In 6578 casi la differenza è superiore a 1 punto di BMI, sarebbe meglio ricalcolare il BMI a mano con la formula.
 
 
+COSE DA FARE NEL DATA PREPARATION
+
+- Convertire tutti i valori anomali in NaN
+- Fare la classificazione dei missing values
+- Dopo aver fatto la classificazione, fare il calcolo del BMI usando la formula (lbs e inch)
+
+
