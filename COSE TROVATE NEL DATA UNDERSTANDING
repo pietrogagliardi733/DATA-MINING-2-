@@ -9,7 +9,7 @@ anche bambini con gravi condizioni cliniche (esempio, non riescono a fare un sit
 7) La colonna BIA-BIA_BMC che indica il bone mineral content contiene 34 valori negativi (impossibile), gemini dice che sono errori di misurazione,
 consiglia di convertirli in missing.
 8) La colonna BIA-BIA_BMR indica il metabolismo basale, 8 valori sono sopra i 5000(2 addirittura sopra i 75k), potremmo considerarli errori di 
-misurazione e convertirli in missing
+misurazione e convertirli in missing, in casi clinici il metabolismo basale può arrivare a 5k, quindi teniamo questa come soglia.
 9)BIA-BIA_FMI (fat mass index) ha 51 valori negativi e BIA-BIA_Fat (grasso corporeo) ha 112 valori negativi,
 anche questi errori di misurazione da convertire.
 10) C'è una discrepanza massiccia tra il BMI fornito (Physical-BMI) e quello calcolato manualmente partendo da Peso e Altezza.
